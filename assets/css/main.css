@@ -3225,6 +3225,10 @@
 
 			.wrapper.style2 ul.alt li {
 				border-top-color: rgba(255, 255, 255, 0.15);
+				width: 50%;
+				display: table;
+				margin: 0 auto;
+
 			}
 
 			.wrapper.style2 header p {
