@@ -3749,7 +3749,7 @@
 
 				#banner .button {
 					width: 100%;
-					display: inline;
+					display: inline-block;
 				}
 
 		}
