@@ -1910,6 +1910,14 @@
 		.button.big {
 			font-size: 1.35em;
 		}
+		@media screen and (max-width:480px)
+		{
+			.button.big
+			{
+				font-size: 1.0em;
+			}
+
+		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
@@ -3723,6 +3731,20 @@
 				display: none;
 			}
 
+		}
+
+		#image1
+		{
+			width:40%;
+			height:100%;
+		}
+		@media screen and (max-width: 480px)
+		{
+			#image1
+			{
+				width:70%;
+				height:100%;
+			}
 		}
 
 		@media screen and (max-width: 736px) {
